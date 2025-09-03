@@ -1,0 +1,17 @@
+{
+    "name": "cocomelon/captcha",
+    "description": "Simple Captcha with numeric, alphabetical, and alphanumeric modes",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Cocomelon\\Captcha\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Cocomelon\\Captcha\\CaptchaServiceProvider"
+            ]
+        }
+    }
+}
